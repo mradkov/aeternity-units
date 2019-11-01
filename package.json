@@ -1,0 +1,43 @@
+{
+  "name": "aeternity-units",
+  "version": "1.0.0",
+  "description": "Aeternity unit conversion",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover _mocha",
+    "coveralls": "npm run coverage && coveralls <coverage/lcov.info",
+    "lint": "standard",
+    "prepublish": "npm run lint && npm run test",
+    "test": "istanbul test mocha -- --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mradkov/aeternity-units.git"
+  },
+  "keywords": [
+    "aeternity",
+    "units",
+    "conversion"
+  ],
+  "author": "Milen Radkov <milenradkov@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mradkov/aeternity-units/issues"
+  },
+  "homepage": "https://github.com/mradkov/aeternity-units#readme",
+  "dependencies": {
+    "bignumber.js": "^2.3.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^5.4.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
