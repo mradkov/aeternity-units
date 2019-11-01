@@ -2,6 +2,6 @@
 
 This is a library for easier computing and converting aeternity blockchain related units.
 
-# Credits
+### Credits
 
-Thanks to [ethereumjs/ethereum-utils](https://github.com/ethereumjs/ethereum-utils).
+Thanks to [ethereumjs/ethereum-units](https://github.com/ethereumjs/ethereumjs-units).
